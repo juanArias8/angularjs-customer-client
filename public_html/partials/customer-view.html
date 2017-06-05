@@ -1,0 +1,37 @@
+<table class="table movietable">
+    <tr>
+        <td><h3>Detalles para {{customer.nombre}}</h3></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Id</td>
+        <td>{{customer.id}}</td>
+    </tr>
+     <tr>
+        <td>Nombre</td>
+        <td>{{customer.nombre}}</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>{{customer.email}}</td>
+    </tr>
+    <tr>
+        <td>Teléfono</td>
+        <td>{{customer.telefono}}</td>
+    </tr>
+    <tr>
+        <td>Dirección</td>
+        <td>{{customer.direccion}}</td>
+    </tr>
+    <tr>
+        <td>País</td>
+        <td>{{customer.pais}}</td>
+    </tr>
+    <tr>
+        <td>Ciudad</td>
+        <td>{{customer.ciudad}}</td>
+    </tr>
+</table>
+<div>
+    <a class="btn btn-primary" ui-sref="editCustomer({id:customer.id})">Editar</a>
+</div>
